@@ -2,7 +2,7 @@
 from Crypto.Util.number import *
 import gmpy2
 # 安全参数
-p=11
+p=getPrime()
 q=13
 n=p*q
 #生成公私钥对
