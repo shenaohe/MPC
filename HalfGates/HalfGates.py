@@ -108,6 +108,10 @@ def Generator(Va):
         return res
     #1.生成导线标签
     Wa0,Wb0,Wa1,Wb1=GenWireLable(8)
+    Wa0=pad(Wa0)
+    Wa1=pad(Wa1)
+    Wb0=pad(Wb0)
+    Wb1=pad(Wb1)
     print("Alice generate the lable of wire a0 is {}".format(Wa0))
     print("Alice generate the lable of wire a1 is {}".format(Wa1))
     print("Alice generate the lable of wire b0 is {}".format(Wb0))
